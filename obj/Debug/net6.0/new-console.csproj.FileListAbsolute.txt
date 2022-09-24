@@ -1,0 +1,15 @@
+C:\Coding\Matrix\new-console\bin\Debug\net6.0\new-console.exe
+C:\Coding\Matrix\new-console\bin\Debug\net6.0\new-console.deps.json
+C:\Coding\Matrix\new-console\bin\Debug\net6.0\new-console.runtimeconfig.json
+C:\Coding\Matrix\new-console\bin\Debug\net6.0\new-console.dll
+C:\Coding\Matrix\new-console\bin\Debug\net6.0\new-console.pdb
+C:\Coding\Matrix\new-console\obj\Debug\net6.0\new-console.csproj.AssemblyReference.cache
+C:\Coding\Matrix\new-console\obj\Debug\net6.0\new-console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Coding\Matrix\new-console\obj\Debug\net6.0\new-console.AssemblyInfoInputs.cache
+C:\Coding\Matrix\new-console\obj\Debug\net6.0\new-console.AssemblyInfo.cs
+C:\Coding\Matrix\new-console\obj\Debug\net6.0\new-console.csproj.CoreCompileInputs.cache
+C:\Coding\Matrix\new-console\obj\Debug\net6.0\new-console.dll
+C:\Coding\Matrix\new-console\obj\Debug\net6.0\refint\new-console.dll
+C:\Coding\Matrix\new-console\obj\Debug\net6.0\new-console.pdb
+C:\Coding\Matrix\new-console\obj\Debug\net6.0\new-console.genruntimeconfig.cache
+C:\Coding\Matrix\new-console\obj\Debug\net6.0\ref\new-console.dll
