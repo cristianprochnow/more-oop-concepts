@@ -53,4 +53,32 @@ class Profile
 
     this.moviments.Add(withdraw);
   }
+
+  public string showExtract()
+  {
+    var extract = new System.Text.StringBuilder();
+
+    decimal saldo = 0;
+
+    string space = "\t\t";
+    string header = "Data"+space+"Valor"+space+"Saldo"+space+"Motivo";
+
+    extract.AppendLine(this.getData());
+    extract.AppendLine(header);
+
+    foreach (Transaction moviment in this.moviments)
+    {
+      saldo += moviment.value;
+
+      string date = moviment.date.ToShortDateString();
+      string value = moviment.value.ToString();
+      string balance = saldo.ToString();
+      string description = moviment.description;
+
+      extract.AppendLine(date+space+value+space+balance+space+description);
+    }
+    extract.AppendLine(saldo.ToString());
+
+    return extract.ToString();
+  }
 }
