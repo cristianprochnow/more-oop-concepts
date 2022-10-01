@@ -1,6 +1,6 @@
-class Profile
+class Account
 {
-  public static int profilesAmount = 0;
+  public static int accountsAmount = 0;
   
   public string number;
   public string bearer;
@@ -20,13 +20,13 @@ class Profile
 
   private List<Transaction> moviments = new List<Transaction>();
 
-  public Profile(string number, string bearer, decimal balance)
+  public Account(string number, string bearer, decimal balance)
   {
     this.number = number;
     this.bearer = bearer;
     this.deposit(balance, DateTime.Now, "Depósito Inicial da Conta Nº "+number);
 
-    profilesAmount++;
+    accountsAmount++;
   }
 
   public string getData()
