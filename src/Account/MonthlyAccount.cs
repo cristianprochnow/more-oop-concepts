@@ -1,6 +1,6 @@
-class AccountStorage: Account
+class MonthlyAccount: Account
 {
-  public AccountStorage(
+  public MonthlyAccount(
     string register, 
     string title, 
     decimal balance

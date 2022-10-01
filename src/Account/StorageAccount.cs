@@ -1,6 +1,6 @@
-class AccountSpecial: Account
+class StorageAccount: Account
 {
-  public AccountSpecial(
+  public StorageAccount(
     string register, 
     string title, 
     decimal balance

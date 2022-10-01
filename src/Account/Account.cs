@@ -18,7 +18,7 @@ class Account
     }
   }
 
-  private List<Transaction> moviments = new List<Transaction>();
+  protected List<Transaction> moviments = new List<Transaction>();
 
   public Account(string number, string bearer, decimal balance)
   {
@@ -47,11 +47,13 @@ class Account
     this.moviments.Add(deposit);
   }
 
-  public void withdraw(decimal value, DateTime date, string description)
+  public virtual void withdraw(decimal value, DateTime date, string description)
   {
-    Transaction withdraw = new Transaction(-value, date, description);
+    if (this.balance >= value) {
+      Transaction withdraw = new Transaction(-value, date, description);
 
-    this.moviments.Add(withdraw);
+      this.moviments.Add(withdraw);
+    }
   }
 
   public string showExtract()
